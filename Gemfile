@@ -35,6 +35,9 @@ gem 'sass', '3.2.19'
 
 gem 'bower-rails'
 
+group :production do
+  gem 'pg'
+end
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
